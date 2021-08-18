@@ -15,7 +15,7 @@ serv.listen(process.env.PORT || 2000);
 console.log("Sever Started");
 
 const cors = require('cors');
-const { pathToFileURL } = require('url');
+//const { pathToFileURL } = require('url');
 app.use(cors());
 
 var SOCKET_LIST = {};

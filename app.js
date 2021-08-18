@@ -1,7 +1,7 @@
 //var mongojs = require("mongojs");
 var db = null //mongojs('localhost:27017/myGame', ['account', 'progress']);
 
-db.account.insert({username:"b",password:"bb"});
+//db.account.insert({username:"b",password:"bb"});
 
 var express = require('express');
 var app = express();

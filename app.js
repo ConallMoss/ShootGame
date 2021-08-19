@@ -23,7 +23,7 @@ var PLAYER_LIST = {};
 
 var Entity = function(){
     var self = {
-        x:250,
+        x:250, 
         y:250,
         spdX:0,
         spdY:0,

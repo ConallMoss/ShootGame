@@ -355,7 +355,7 @@ io.sockets.on('connection', function(socket){
         }
     })
 
-var DEBUG = true
+var DEBUG = false
 
     socket.on('evalServer', function(data){
         if(!DEBUG)

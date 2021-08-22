@@ -300,7 +300,7 @@ var isUsernameTaken = function(data,cb){
 }
 
 var addUser = function(data,cb){
-    cb()
+    return cb()
     db.account.insert({username:data.username, 
         password:data.password}, function(err){
             cb();
